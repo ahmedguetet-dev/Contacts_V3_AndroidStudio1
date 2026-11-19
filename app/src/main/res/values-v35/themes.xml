@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 15+ (targetSdk 35) force l'affichage bord a bord : on le desactive pour que
+         les boutons du bas ne passent pas sous la barre de navigation. -->
+    <style name="Theme.ContactsV3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@+id/searchContacts" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Rechercher nom, prénom ou téléphone" android:singleLine="true" android:inputType="text" android:imeOptions="actionSearch" android:importantForAutofill="no" />
+    <TextView android:id="@+id/emptyMessage" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Aucun contact ne correspond." android:gravity="center" android:padding="24dp" android:visibility="gone" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerContacts" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingTop="8dp" />
+</LinearLayout>
